@@ -1,0 +1,6 @@
+framework module Pods_AipOcrSdk_Example {
+  umbrella header "Pods-AipOcrSdk_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

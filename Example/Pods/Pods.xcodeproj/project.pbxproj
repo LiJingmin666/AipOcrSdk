@@ -1,0 +1,1020 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06A6E13B837D957EC2C6218064C2CA8A /* dengpao@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = F31E80E40C1F72C75B291128F180F7DF /* dengpao@2x.png */; };
+		0DA27236BC8CD7545CE7EC64B1ECBDAA /* Page 1@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 5F4B17DAA9ADD9941BC14BBE2407C775 /* Page 1@2x.png */; };
+		0E682547E87EF56838BAAB986ACCA7BC /* AipCaptureCardVC.nib in Sources */ = {isa = PBXBuildFile; fileRef = D7CF948A3349732D684B2A1B258329F2 /* AipCaptureCardVC.nib */; };
+		0E99AEE1A16956B4105FC891F79C5D20 /* IdcardQualityAdaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C4282D0C4AF8B11819895EF1A624135 /* IdcardQualityAdaptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		138574FF42A5109F0345E414ED6EB579 /* dengpao@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = FB15F79C9EF74E462F5328D4868306F3 /* dengpao@3x.png */; };
+		139E4FA0FB7AC4CE9CA0B10F695F5F9E /* integrity_model_secret.bin in Sources */ = {isa = PBXBuildFile; fileRef = DEC450D18A8E62166DFE7A4EACD748D6 /* integrity_model_secret.bin */; };
+		1647C278A3258848FD4A0E4AC5883FFB /* AipOcrSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F3D5D1780016B8DE76C313AB75DC6DE /* AipOcrSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17A26231ACA12AE1D83C0F5C653C8F74 /* AipBase in Sources */ = {isa = PBXBuildFile; fileRef = 27AB9917CE54550578B70B8A9CF55B24 /* AipBase */; };
+		1D33853E3CE67E65250B389CDA73D5DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1DBD001655A1F89D9958ADDAA21C3066 /* tuku@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 1E0B321E2E68C1069DD3D3C4A866B600 /* tuku@3x.png */; };
+		249305CF8748EA4F40660F6483C7C513 /* AipCaptureCardVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CBA33EFCC1D81E43DF458F58F7DC616 /* AipCaptureCardVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27E8380C1445B3B36E26503CC83041D4 /* guan@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = CDB2E411FA814C1D863AD4ED95D0F01F /* guan@3x.png */; };
+		2D544AEDA978CA5A93F9AC6B90A2831F /* xuanzhuan@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 9E7CD72A560FD6104494DA8C63DA1D43 /* xuanzhuan@3x.png */; };
+		313F92FECD50BB421C33C6782CA7F4B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		35B81E43AC7FEAE2831A39C7F95BFD13 /* AipGeneralVC.nib in Sources */ = {isa = PBXBuildFile; fileRef = A6BA8557949EED4080A4F55FCDD40741 /* AipGeneralVC.nib */; };
+		39F563C18265361BDA40E6145A79F24F /* AipOpenUDID.h in Headers */ = {isa = PBXBuildFile; fileRef = 789D4F7F1A06BA38D34FABC00D0BCCCB /* AipOpenUDID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A8FC4AFC7A0FAB75D5F12C3138E7FBE /* Pods-AipOcrSdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D85F699A73FDB95F41C4CA4D5940726 /* Pods-AipOcrSdk_Tests-dummy.m */; };
+		3A9A0F57EED95F98722878FA18423ADE /* xuanzhuan@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 18CE45C20E3A93156F2DCE1AD5FBB9D2 /* xuanzhuan@2x.png */; };
+		45EAFAE18BE216A733C5C16047887778 /* paizhaoanniu@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 72AF6A90C59238990CD0EFACD4A2EAFB /* paizhaoanniu@3x.png */; };
+		46209457EF1FE03CF3A2ACE5F10E617D /* guan@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = B4A9EBD3C5C3533CC629AD7E3834019D /* guan@2x.png */; };
+		51DC399A486C5EABC16B4899CDD434B2 /* qVB-bS-VcD-view-pEK-B6-uAC.nib in Sources */ = {isa = PBXBuildFile; fileRef = C459B2E801213A2E108946CE6B22408D /* qVB-bS-VcD-view-pEK-B6-uAC.nib */; };
+		5C11C7A03A21843E79CBB923A52235FA /* dengpao_dianjihou@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 96622908E1D6D6B52027652C07A11F30 /* dengpao_dianjihou@3x.png */; };
+		5D494917AB5445EF4477370269AD3960 /* NSErrorHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C629992CE0B1468D51732F981C2E3D5D /* NSErrorHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		629B02F881D0B36E531DCC8CA366593A /* queding@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = B990634BBA5F20CDFE5BEC0DA7924BDB /* queding@2x.png */; };
+		69AB27977A043210C98E0F565B229CD1 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C42D7590F446AEA63AFF2280C9793 /* module.modulemap */; };
+		727818C8604F5856B8E5E3ADC2FE221B /* guanbi@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = F3CE2A09A5D29C3CFED4C46FAA66C070 /* guanbi@2x.png */; };
+		81C55227F80A5262CE16ED83F68E9414 /* xuxian@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F3958B99BCBC3632F92EE0A9A6EAB /* xuxian@3x.png */; };
+		8B364187DE29FAF4E39A60DA1030101F /* Pods-AipOcrSdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B67EB893458B029BC79F2C76B0BEA4 /* Pods-AipOcrSdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D38DD45C4400845B0ABA9D1D65A9A30 /* AipOcrService.h in Headers */ = {isa = PBXBuildFile; fileRef = E75E79D34658D8A3B67321F57E6DFB8C /* AipOcrService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9349736C697C30D513D76F4A96E790EC /* guanbi@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 7DE812856CCD341D9EDC517B8AD767A6 /* guanbi@3x.png */; };
+		936931F181F89D55C2A63B3A4A1ADFFE /* Pods-AipOcrSdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 361C47F31FDD3614FB3ED2C082C0A852 /* Pods-AipOcrSdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BED059F23DB01AA9629DEEE4A006513 /* ANZ-N0-y67-view-Tv2-ge-o8Q.nib in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3305D44C490710183463C0DBDB0B4 /* ANZ-N0-y67-view-Tv2-ge-o8Q.nib */; };
+		9DC6A7E77A3087264C3D4AF12973D8C7 /* AipTokenManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A8D89C3B3F2533750F36FFA007CAFC /* AipTokenManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A426181D3A41AF73195E22806F308629 /* AipGeneralVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D7A05270DFAFDB8DF134C5280476B9 /* AipGeneralVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A57A0E1F95665DD02A2C28AF661BD1FA /* AipOcrSdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB3F7693C3193AFE63A370532D02230 /* AipOcrSdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6A2698E6628058C65A51C88017F4C51 /* Pods-AipOcrSdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A98AE1F5B3CC693F2A2BA7F16CB165D4 /* Pods-AipOcrSdk_Example-dummy.m */; };
+		ABC86C556D389999969CF5419FA3C276 /* IdcardQuality.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9568179C1D3F3654513F1453FE3C47 /* IdcardQuality.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD22550E07A199F2E2DFCF47889FDA6E /* paizhaoanniu@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = C39DECA9E5FD8ED16F1D199F2732C772 /* paizhaoanniu@2x.png */; };
+		B7E97C4B7A2113C1B5CA7BAACD47DDCD /* paizhaoanniu_dianjihou@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = DEF1F0DFE3CF5880B98AE49B2DCE185C /* paizhaoanniu_dianjihou@3x.png */; };
+		B90304E774D8F1D558E9D7E0B0B5A27D /* tuku@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A113C1C6696B60A37C82CA5B6511F /* tuku@2x.png */; };
+		BE56B790E06097F65714E3DF5CD3F888 /* xuxian@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 481BFF50D7542539F993EA1C692414A9 /* xuxian@2x.png */; };
+		C10A6DEC7DD64699F5B376B83BB6DA9E /* Page 1@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 460012ACFC06B4F9DFBDBD0D0F3FEDF2 /* Page 1@3x.png */; };
+		C4DA659ED95F12B0C2AA0D99CAA0D963 /* quality_model_secret.bin in Sources */ = {isa = PBXBuildFile; fileRef = DA62EB7075CE8B34EA53112BBBF21F22 /* quality_model_secret.bin */; };
+		C4F38C98B034635C0C1B8C2EFA35CE4A /* paizhaoanniu_dianjihou@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 5D5801AE68CEE521A2FC47B9AA302F0D /* paizhaoanniu_dianjihou@2x.png */; };
+		CC33B32699BA7F2BE5B8F622C51924B8 /* idcard_quality.h in Headers */ = {isa = PBXBuildFile; fileRef = 528B65CD23A5A7547239D66909F0C6C1 /* idcard_quality.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D47519A75B4479C7A8AA69BD868A1B34 /* AipOcrSdk in Sources */ = {isa = PBXBuildFile; fileRef = CE3CA2BE727A723896E1C39FD9A11E3E /* AipOcrSdk */; };
+		DB18C8006C289EF887BCC065BEF245E3 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = B38A69FA5D7C3C0ED29B18AD20F438A0 /* Info.plist */; };
+		E8B27020B6C2F2A88FECA0D6F454313F /* AipOcrSdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F2462AE8E3C636FF33AC2465FA9E26 /* AipOcrSdk-dummy.m */; };
+		EBC29C7AFF202B1B349BCAA13DB6AB7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EF1D52AD9B04E19FDD86562E59D6E2D3 /* dengpao_dianjihou@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 493C01293A786441E57EC3B555F5AFEB /* dengpao_dianjihou@2x.png */; };
+		F1712928DF6520A09B2B74BF2410E983 /* queding@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = A676DE21CA41B325FB1457D58B4C61FA /* queding@3x.png */; };
+		F1E66FD0A0D712DAC44768D6F5BB78D8 /* AipBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1248E939B2326197117EC25271BB27 /* AipBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F49A11DA8ADA46AB9EDFA0E159A4E4CA /* IdcardQuality in Sources */ = {isa = PBXBuildFile; fileRef = 5042A9FCDCB67ACC87C3EEAEFEAE8A9F /* IdcardQuality */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66BC1F5D47D9C5433C7E573C3306DFCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7505D124FF6569CBEAF8EA12240E2F4C;
+			remoteInfo = "Pods-AipOcrSdk_Example";
+		};
+		A86E1CE35911513A8900061AF9E364EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9371C2A44CDACF8A11EAA321104C050B;
+			remoteInfo = AipOcrSdk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		071DF6AC17E67F19D9A35BE02DD6BF3C /* Pods-AipOcrSdk_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AipOcrSdk_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		084F9518310FFBDD51D114C7716F9B8B /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		0D1248E939B2326197117EC25271BB27 /* AipBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipBase.h; sourceTree = "<group>"; };
+		0D3F3958B99BCBC3632F92EE0A9A6EAB /* xuxian@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "xuxian@3x.png"; sourceTree = "<group>"; };
+		18CE45C20E3A93156F2DCE1AD5FBB9D2 /* xuanzhuan@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "xuanzhuan@2x.png"; sourceTree = "<group>"; };
+		1BB3F7693C3193AFE63A370532D02230 /* AipOcrSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AipOcrSdk-umbrella.h"; sourceTree = "<group>"; };
+		1CECC40F1EA61563483136B1B552C6D0 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		1E0B321E2E68C1069DD3D3C4A866B600 /* tuku@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tuku@3x.png"; sourceTree = "<group>"; };
+		27AB9917CE54550578B70B8A9CF55B24 /* AipBase */ = {isa = PBXFileReference; includeInIndex = 1; path = AipBase; sourceTree = "<group>"; };
+		2895CE6E413C3FB20E40728E9233104C /* AipOcrSdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AipOcrSdk-prefix.pch"; sourceTree = "<group>"; };
+		28D7A05270DFAFDB8DF134C5280476B9 /* AipGeneralVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipGeneralVC.h; sourceTree = "<group>"; };
+		29B67EB893458B029BC79F2C76B0BEA4 /* Pods-AipOcrSdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AipOcrSdk_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2BE35E5A7F02B34DC08A2DE693324244 /* AipOcrSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AipOcrSdk.framework; path = AipOcrSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6757EA1E1B5B0BC88584CF00744885 /* Pods-AipOcrSdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AipOcrSdk_Example.modulemap"; sourceTree = "<group>"; };
+		35CCCAF31A39C96359F2EAED4B72D0D3 /* Pods_AipOcrSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AipOcrSdk_Tests.framework; path = "Pods-AipOcrSdk_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36048AB03BA3C57971F0A371470DEC1F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		361C47F31FDD3614FB3ED2C082C0A852 /* Pods-AipOcrSdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AipOcrSdk_Example-umbrella.h"; sourceTree = "<group>"; };
+		4587A2FA37E73AFFBC5A9D593A4CEFBE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		460012ACFC06B4F9DFBDBD0D0F3FEDF2 /* Page 1@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Page 1@3x.png"; sourceTree = "<group>"; };
+		481BFF50D7542539F993EA1C692414A9 /* xuxian@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "xuxian@2x.png"; sourceTree = "<group>"; };
+		493C01293A786441E57EC3B555F5AFEB /* dengpao_dianjihou@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dengpao_dianjihou@2x.png"; sourceTree = "<group>"; };
+		4E1A113C1C6696B60A37C82CA5B6511F /* tuku@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tuku@2x.png"; sourceTree = "<group>"; };
+		4F3D5D1780016B8DE76C313AB75DC6DE /* AipOcrSdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipOcrSdk.h; sourceTree = "<group>"; };
+		5042A9FCDCB67ACC87C3EEAEFEAE8A9F /* IdcardQuality */ = {isa = PBXFileReference; includeInIndex = 1; path = IdcardQuality; sourceTree = "<group>"; };
+		528B65CD23A5A7547239D66909F0C6C1 /* idcard_quality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = idcard_quality.h; sourceTree = "<group>"; };
+		59C6E36744869872C023F40CFACC2264 /* Pods-AipOcrSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AipOcrSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5AD3305D44C490710183463C0DBDB0B4 /* ANZ-N0-y67-view-Tv2-ge-o8Q.nib */ = {isa = PBXFileReference; includeInIndex = 1; path = "ANZ-N0-y67-view-Tv2-ge-o8Q.nib"; sourceTree = "<group>"; };
+		5CC70EDF76D7DDC114B6495E0BCC2222 /* Pods-AipOcrSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AipOcrSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5D5801AE68CEE521A2FC47B9AA302F0D /* paizhaoanniu_dianjihou@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "paizhaoanniu_dianjihou@2x.png"; sourceTree = "<group>"; };
+		5D8C42D7590F446AEA63AFF2280C9793 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		5F4B17DAA9ADD9941BC14BBE2407C775 /* Page 1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Page 1@2x.png"; sourceTree = "<group>"; };
+		603935FEC607C4392241CEAD025ED520 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6281BFF0817CC94880535606EB30F0CC /* AipOcrSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AipOcrSdk.modulemap; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69A8D89C3B3F2533750F36FFA007CAFC /* AipTokenManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipTokenManager.h; sourceTree = "<group>"; };
+		6D85F699A73FDB95F41C4CA4D5940726 /* Pods-AipOcrSdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AipOcrSdk_Tests-dummy.m"; sourceTree = "<group>"; };
+		70EB92DB19E630D1BF0C339086554455 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72AF6A90C59238990CD0EFACD4A2EAFB /* paizhaoanniu@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "paizhaoanniu@3x.png"; sourceTree = "<group>"; };
+		74DA2730B3766F111F3711CF557199F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		789D4F7F1A06BA38D34FABC00D0BCCCB /* AipOpenUDID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipOpenUDID.h; sourceTree = "<group>"; };
+		7DE812856CCD341D9EDC517B8AD767A6 /* guanbi@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "guanbi@3x.png"; sourceTree = "<group>"; };
+		8C4282D0C4AF8B11819895EF1A624135 /* IdcardQualityAdaptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IdcardQualityAdaptor.h; sourceTree = "<group>"; };
+		8CBA33EFCC1D81E43DF458F58F7DC616 /* AipCaptureCardVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipCaptureCardVC.h; sourceTree = "<group>"; };
+		8F9C08144CAC3611FDFB9307BDD4C761 /* Pods-AipOcrSdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AipOcrSdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96622908E1D6D6B52027652C07A11F30 /* dengpao_dianjihou@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dengpao_dianjihou@3x.png"; sourceTree = "<group>"; };
+		96C04153924CF1DE6135EF13CB6CABE5 /* Pods-AipOcrSdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AipOcrSdk_Tests.modulemap"; sourceTree = "<group>"; };
+		97A55A6FB1C61607B41AE05739D75C04 /* AipOcrSdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AipOcrSdk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AFA6DA29DCC0FC12167AA423B2F6760 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B9B6776A8321E0B4496358CD6B82071 /* Pods_AipOcrSdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AipOcrSdk_Example.framework; path = "Pods-AipOcrSdk_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E7CD72A560FD6104494DA8C63DA1D43 /* xuanzhuan@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "xuanzhuan@3x.png"; sourceTree = "<group>"; };
+		A676DE21CA41B325FB1457D58B4C61FA /* queding@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "queding@3x.png"; sourceTree = "<group>"; };
+		A6BA8557949EED4080A4F55FCDD40741 /* AipGeneralVC.nib */ = {isa = PBXFileReference; includeInIndex = 1; path = AipGeneralVC.nib; sourceTree = "<group>"; };
+		A98AE1F5B3CC693F2A2BA7F16CB165D4 /* Pods-AipOcrSdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AipOcrSdk_Example-dummy.m"; sourceTree = "<group>"; };
+		AA9E0CD8B607068F34B5437A7D1F9A34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1A0E1D0DEDD80A87C64DD9746F01B48 /* Pods-AipOcrSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AipOcrSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1E49BB76F07C0786B00B5C27B8F3AFF /* Pods-AipOcrSdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AipOcrSdk_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B38A69FA5D7C3C0ED29B18AD20F438A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4A9EBD3C5C3533CC629AD7E3834019D /* guan@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "guan@2x.png"; sourceTree = "<group>"; };
+		B990634BBA5F20CDFE5BEC0DA7924BDB /* queding@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "queding@2x.png"; sourceTree = "<group>"; };
+		BB33A3F3FA195D8FBC96B1572508E76A /* Pods-AipOcrSdk_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AipOcrSdk_Tests-resources.sh"; sourceTree = "<group>"; };
+		BD40D5013E748BA202886E983F224828 /* Pods-AipOcrSdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AipOcrSdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C39DECA9E5FD8ED16F1D199F2732C772 /* paizhaoanniu@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "paizhaoanniu@2x.png"; sourceTree = "<group>"; };
+		C459B2E801213A2E108946CE6B22408D /* qVB-bS-VcD-view-pEK-B6-uAC.nib */ = {isa = PBXFileReference; includeInIndex = 1; path = "qVB-bS-VcD-view-pEK-B6-uAC.nib"; sourceTree = "<group>"; };
+		C629992CE0B1468D51732F981C2E3D5D /* NSErrorHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NSErrorHelper.h; sourceTree = "<group>"; };
+		CDB2E411FA814C1D863AD4ED95D0F01F /* guan@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "guan@3x.png"; sourceTree = "<group>"; };
+		CE3CA2BE727A723896E1C39FD9A11E3E /* AipOcrSdk */ = {isa = PBXFileReference; includeInIndex = 1; path = AipOcrSdk; sourceTree = "<group>"; };
+		D75168917B8997451F60C4AC036ACAD0 /* AipOcrSdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AipOcrSdk.xcconfig; sourceTree = "<group>"; };
+		D7CF948A3349732D684B2A1B258329F2 /* AipCaptureCardVC.nib */ = {isa = PBXFileReference; includeInIndex = 1; path = AipCaptureCardVC.nib; sourceTree = "<group>"; };
+		DA62EB7075CE8B34EA53112BBBF21F22 /* quality_model_secret.bin */ = {isa = PBXFileReference; includeInIndex = 1; path = quality_model_secret.bin; sourceTree = "<group>"; };
+		DB8AA0DB7E1395C456575FFB8CE13897 /* Pods-AipOcrSdk_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AipOcrSdk_Example-resources.sh"; sourceTree = "<group>"; };
+		DEC450D18A8E62166DFE7A4EACD748D6 /* integrity_model_secret.bin */ = {isa = PBXFileReference; includeInIndex = 1; path = integrity_model_secret.bin; sourceTree = "<group>"; };
+		DEF1F0DFE3CF5880B98AE49B2DCE185C /* paizhaoanniu_dianjihou@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "paizhaoanniu_dianjihou@3x.png"; sourceTree = "<group>"; };
+		E75E79D34658D8A3B67321F57E6DFB8C /* AipOcrService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipOcrService.h; sourceTree = "<group>"; };
+		EA9568179C1D3F3654513F1453FE3C47 /* IdcardQuality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IdcardQuality.h; sourceTree = "<group>"; };
+		ECD9DEEC06E05CA131334F801AA6D2F5 /* Pods-AipOcrSdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AipOcrSdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F31E80E40C1F72C75B291128F180F7DF /* dengpao@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dengpao@2x.png"; sourceTree = "<group>"; };
+		F3AF610D2BEB103156F0DAE9B32E888A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3CE2A09A5D29C3CFED4C46FAA66C070 /* guanbi@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "guanbi@2x.png"; sourceTree = "<group>"; };
+		F5F2462AE8E3C636FF33AC2465FA9E26 /* AipOcrSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AipOcrSdk-dummy.m"; sourceTree = "<group>"; };
+		FAF2898F701374E088CC6AE337F31060 /* Pods-AipOcrSdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AipOcrSdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB15F79C9EF74E462F5328D4868306F3 /* dengpao@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dengpao@3x.png"; sourceTree = "<group>"; };
+		FC778252F509A7FFC65FD7F668F157B4 /* Pods-AipOcrSdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AipOcrSdk_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C46CDC0475FECDA502FC47F79EE755D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC29C7AFF202B1B349BCAA13DB6AB7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		453E8BF4B1930ACAFA58B35E02E267EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D33853E3CE67E65250B389CDA73D5DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35D38A236911D214FA0411F68A31090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313F92FECD50BB421C33C6782CA7F4B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10BB75EA3269A4E287018B3FE460DD45 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49C988B8B76A184A02F4DAF142626419 /* Pods-AipOcrSdk_Example */,
+				29ABC13D2EA1AD5A1EAADC29F97CA64A /* Pods-AipOcrSdk_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		29ABC13D2EA1AD5A1EAADC29F97CA64A /* Pods-AipOcrSdk_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				70EB92DB19E630D1BF0C339086554455 /* Info.plist */,
+				96C04153924CF1DE6135EF13CB6CABE5 /* Pods-AipOcrSdk_Tests.modulemap */,
+				BD40D5013E748BA202886E983F224828 /* Pods-AipOcrSdk_Tests-acknowledgements.markdown */,
+				ECD9DEEC06E05CA131334F801AA6D2F5 /* Pods-AipOcrSdk_Tests-acknowledgements.plist */,
+				6D85F699A73FDB95F41C4CA4D5940726 /* Pods-AipOcrSdk_Tests-dummy.m */,
+				071DF6AC17E67F19D9A35BE02DD6BF3C /* Pods-AipOcrSdk_Tests-frameworks.sh */,
+				BB33A3F3FA195D8FBC96B1572508E76A /* Pods-AipOcrSdk_Tests-resources.sh */,
+				29B67EB893458B029BC79F2C76B0BEA4 /* Pods-AipOcrSdk_Tests-umbrella.h */,
+				B1A0E1D0DEDD80A87C64DD9746F01B48 /* Pods-AipOcrSdk_Tests.debug.xcconfig */,
+				5CC70EDF76D7DDC114B6495E0BCC2222 /* Pods-AipOcrSdk_Tests.release.xcconfig */,
+			);
+			name = "Pods-AipOcrSdk_Tests";
+			path = "Target Support Files/Pods-AipOcrSdk_Tests";
+			sourceTree = "<group>";
+		};
+		3023A80932DEE15DE98621A41DB43839 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				8CBA33EFCC1D81E43DF458F58F7DC616 /* AipCaptureCardVC.h */,
+				28D7A05270DFAFDB8DF134C5280476B9 /* AipGeneralVC.h */,
+				4F3D5D1780016B8DE76C313AB75DC6DE /* AipOcrSdk.h */,
+				E75E79D34658D8A3B67321F57E6DFB8C /* AipOcrService.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		33FB384583F48626229741B88E0C42E6 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				084F9518310FFBDD51D114C7716F9B8B /* module.modulemap */,
+			);
+			name = Modules;
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		35D6584D1C7972B8EC0B1139CF86C76B /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				528B65CD23A5A7547239D66909F0C6C1 /* idcard_quality.h */,
+				EA9568179C1D3F3654513F1453FE3C47 /* IdcardQuality.h */,
+				8C4282D0C4AF8B11819895EF1A624135 /* IdcardQualityAdaptor.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		3A28717DBE55E5A839D10E2FF8EEA638 /* AipOcrSdk.framework */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CA2BE727A723896E1C39FD9A11E3E /* AipOcrSdk */,
+				F31E80E40C1F72C75B291128F180F7DF /* dengpao@2x.png */,
+				FB15F79C9EF74E462F5328D4868306F3 /* dengpao@3x.png */,
+				493C01293A786441E57EC3B555F5AFEB /* dengpao_dianjihou@2x.png */,
+				96622908E1D6D6B52027652C07A11F30 /* dengpao_dianjihou@3x.png */,
+				B4A9EBD3C5C3533CC629AD7E3834019D /* guan@2x.png */,
+				CDB2E411FA814C1D863AD4ED95D0F01F /* guan@3x.png */,
+				F3CE2A09A5D29C3CFED4C46FAA66C070 /* guanbi@2x.png */,
+				7DE812856CCD341D9EDC517B8AD767A6 /* guanbi@3x.png */,
+				4587A2FA37E73AFFBC5A9D593A4CEFBE /* Info.plist */,
+				5F4B17DAA9ADD9941BC14BBE2407C775 /* Page 1@2x.png */,
+				460012ACFC06B4F9DFBDBD0D0F3FEDF2 /* Page 1@3x.png */,
+				C39DECA9E5FD8ED16F1D199F2732C772 /* paizhaoanniu@2x.png */,
+				72AF6A90C59238990CD0EFACD4A2EAFB /* paizhaoanniu@3x.png */,
+				5D5801AE68CEE521A2FC47B9AA302F0D /* paizhaoanniu_dianjihou@2x.png */,
+				DEF1F0DFE3CF5880B98AE49B2DCE185C /* paizhaoanniu_dianjihou@3x.png */,
+				B990634BBA5F20CDFE5BEC0DA7924BDB /* queding@2x.png */,
+				A676DE21CA41B325FB1457D58B4C61FA /* queding@3x.png */,
+				4E1A113C1C6696B60A37C82CA5B6511F /* tuku@2x.png */,
+				1E0B321E2E68C1069DD3D3C4A866B600 /* tuku@3x.png */,
+				18CE45C20E3A93156F2DCE1AD5FBB9D2 /* xuanzhuan@2x.png */,
+				9E7CD72A560FD6104494DA8C63DA1D43 /* xuanzhuan@3x.png */,
+				481BFF50D7542539F993EA1C692414A9 /* xuxian@2x.png */,
+				0D3F3958B99BCBC3632F92EE0A9A6EAB /* xuxian@3x.png */,
+				56E15AFA76A7ED42AA3DC99E8858660C /* AipOcrSdk.storyboardc */,
+				3023A80932DEE15DE98621A41DB43839 /* Headers */,
+				F57B857D91B03CACC8D9A2C2788D20E7 /* Modules */,
+			);
+			name = AipOcrSdk.framework;
+			path = AipOcrSdk/Classes/AipOcrSdk.framework;
+			sourceTree = "<group>";
+		};
+		3DB255DD6E097029D312596040B5E965 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD5E0B2A1CBAF1435F62153692C43280 /* AipOcrSdk */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		401D02B710716B63180AB88FC0334619 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6281BFF0817CC94880535606EB30F0CC /* AipOcrSdk.modulemap */,
+				D75168917B8997451F60C4AC036ACAD0 /* AipOcrSdk.xcconfig */,
+				F5F2462AE8E3C636FF33AC2465FA9E26 /* AipOcrSdk-dummy.m */,
+				2895CE6E413C3FB20E40728E9233104C /* AipOcrSdk-prefix.pch */,
+				1BB3F7693C3193AFE63A370532D02230 /* AipOcrSdk-umbrella.h */,
+				F3AF610D2BEB103156F0DAE9B32E888A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AipOcrSdk";
+			sourceTree = "<group>";
+		};
+		40DFE79EAADBC964BD440DC0FD0A0951 /* IdcardQuality.framework */ = {
+			isa = PBXGroup;
+			children = (
+				5042A9FCDCB67ACC87C3EEAEFEAE8A9F /* IdcardQuality */,
+				B38A69FA5D7C3C0ED29B18AD20F438A0 /* Info.plist */,
+				DEC450D18A8E62166DFE7A4EACD748D6 /* integrity_model_secret.bin */,
+				DA62EB7075CE8B34EA53112BBBF21F22 /* quality_model_secret.bin */,
+				35D6584D1C7972B8EC0B1139CF86C76B /* Headers */,
+				4FE5EAD658997E02ABC254C655BC6749 /* Modules */,
+			);
+			name = IdcardQuality.framework;
+			path = AipOcrSdk/Classes/IdcardQuality.framework;
+			sourceTree = "<group>";
+		};
+		49C988B8B76A184A02F4DAF142626419 /* Pods-AipOcrSdk_Example */ = {
+			isa = PBXGroup;
+			children = (
+				74DA2730B3766F111F3711CF557199F3 /* Info.plist */,
+				2C6757EA1E1B5B0BC88584CF00744885 /* Pods-AipOcrSdk_Example.modulemap */,
+				FAF2898F701374E088CC6AE337F31060 /* Pods-AipOcrSdk_Example-acknowledgements.markdown */,
+				8F9C08144CAC3611FDFB9307BDD4C761 /* Pods-AipOcrSdk_Example-acknowledgements.plist */,
+				A98AE1F5B3CC693F2A2BA7F16CB165D4 /* Pods-AipOcrSdk_Example-dummy.m */,
+				B1E49BB76F07C0786B00B5C27B8F3AFF /* Pods-AipOcrSdk_Example-frameworks.sh */,
+				DB8AA0DB7E1395C456575FFB8CE13897 /* Pods-AipOcrSdk_Example-resources.sh */,
+				361C47F31FDD3614FB3ED2C082C0A852 /* Pods-AipOcrSdk_Example-umbrella.h */,
+				59C6E36744869872C023F40CFACC2264 /* Pods-AipOcrSdk_Example.debug.xcconfig */,
+				FC778252F509A7FFC65FD7F668F157B4 /* Pods-AipOcrSdk_Example.release.xcconfig */,
+			);
+			name = "Pods-AipOcrSdk_Example";
+			path = "Target Support Files/Pods-AipOcrSdk_Example";
+			sourceTree = "<group>";
+		};
+		4FE5EAD658997E02ABC254C655BC6749 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5D8C42D7590F446AEA63AFF2280C9793 /* module.modulemap */,
+			);
+			name = Modules;
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		56E15AFA76A7ED42AA3DC99E8858660C /* AipOcrSdk.storyboardc */ = {
+			isa = PBXGroup;
+			children = (
+				D7CF948A3349732D684B2A1B258329F2 /* AipCaptureCardVC.nib */,
+				A6BA8557949EED4080A4F55FCDD40741 /* AipGeneralVC.nib */,
+				5AD3305D44C490710183463C0DBDB0B4 /* ANZ-N0-y67-view-Tv2-ge-o8Q.nib */,
+				9AFA6DA29DCC0FC12167AA423B2F6760 /* Info.plist */,
+				C459B2E801213A2E108946CE6B22408D /* qVB-bS-VcD-view-pEK-B6-uAC.nib */,
+			);
+			name = AipOcrSdk.storyboardc;
+			path = AipOcrSdk.storyboardc;
+			sourceTree = "<group>";
+		};
+		650FFB4EBFF9E87722F8DEAD93C62EF2 /* AipBase.framework */ = {
+			isa = PBXGroup;
+			children = (
+				27AB9917CE54550578B70B8A9CF55B24 /* AipBase */,
+				AA9E0CD8B607068F34B5437A7D1F9A34 /* Info.plist */,
+				DF620280AAD669D8CA1D679DE6F58D6B /* Headers */,
+				33FB384583F48626229741B88E0C42E6 /* Modules */,
+			);
+			name = AipBase.framework;
+			path = AipOcrSdk/Classes/AipBase.framework;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3DB255DD6E097029D312596040B5E965 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CF4357BA4AB98893DF36745D7E94FAA6 /* Products */,
+				10BB75EA3269A4E287018B3FE460DD45 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8C1E14744477152D22046F93B193E279 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				97A55A6FB1C61607B41AE05739D75C04 /* AipOcrSdk.podspec */,
+				36048AB03BA3C57971F0A371470DEC1F /* LICENSE */,
+				603935FEC607C4392241CEAD025ED520 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF4357BA4AB98893DF36745D7E94FAA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BE35E5A7F02B34DC08A2DE693324244 /* AipOcrSdk.framework */,
+				9B9B6776A8321E0B4496358CD6B82071 /* Pods_AipOcrSdk_Example.framework */,
+				35CCCAF31A39C96359F2EAED4B72D0D3 /* Pods_AipOcrSdk_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DF620280AAD669D8CA1D679DE6F58D6B /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				0D1248E939B2326197117EC25271BB27 /* AipBase.h */,
+				789D4F7F1A06BA38D34FABC00D0BCCCB /* AipOpenUDID.h */,
+				69A8D89C3B3F2533750F36FFA007CAFC /* AipTokenManager.h */,
+				C629992CE0B1468D51732F981C2E3D5D /* NSErrorHelper.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		F57B857D91B03CACC8D9A2C2788D20E7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1CECC40F1EA61563483136B1B552C6D0 /* module.modulemap */,
+			);
+			name = Modules;
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		FD5E0B2A1CBAF1435F62153692C43280 /* AipOcrSdk */ = {
+			isa = PBXGroup;
+			children = (
+				650FFB4EBFF9E87722F8DEAD93C62EF2 /* AipBase.framework */,
+				3A28717DBE55E5A839D10E2FF8EEA638 /* AipOcrSdk.framework */,
+				40DFE79EAADBC964BD440DC0FD0A0951 /* IdcardQuality.framework */,
+				8C1E14744477152D22046F93B193E279 /* Pod */,
+				401D02B710716B63180AB88FC0334619 /* Support Files */,
+			);
+			name = AipOcrSdk;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		452E67A18B6B73DD091FC18796F544BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E66FD0A0D712DAC44768D6F5BB78D8 /* AipBase.h in Headers */,
+				249305CF8748EA4F40660F6483C7C513 /* AipCaptureCardVC.h in Headers */,
+				A426181D3A41AF73195E22806F308629 /* AipGeneralVC.h in Headers */,
+				A57A0E1F95665DD02A2C28AF661BD1FA /* AipOcrSdk-umbrella.h in Headers */,
+				1647C278A3258848FD4A0E4AC5883FFB /* AipOcrSdk.h in Headers */,
+				8D38DD45C4400845B0ABA9D1D65A9A30 /* AipOcrService.h in Headers */,
+				39F563C18265361BDA40E6145A79F24F /* AipOpenUDID.h in Headers */,
+				9DC6A7E77A3087264C3D4AF12973D8C7 /* AipTokenManager.h in Headers */,
+				CC33B32699BA7F2BE5B8F622C51924B8 /* idcard_quality.h in Headers */,
+				ABC86C556D389999969CF5419FA3C276 /* IdcardQuality.h in Headers */,
+				0E99AEE1A16956B4105FC891F79C5D20 /* IdcardQualityAdaptor.h in Headers */,
+				5D494917AB5445EF4477370269AD3960 /* NSErrorHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF533ECAD1938011FD04660BFFBF093A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				936931F181F89D55C2A63B3A4A1ADFFE /* Pods-AipOcrSdk_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E591B4EB8FD918FB16A461DDCC9333 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B364187DE29FAF4E39A60DA1030101F /* Pods-AipOcrSdk_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C7647B4B97A779C4D482C2EED2061BB /* Pods-AipOcrSdk_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A846943C6C3E4ABB2093C2EE00B6189D /* Build configuration list for PBXNativeTarget "Pods-AipOcrSdk_Tests" */;
+			buildPhases = (
+				AFB9851D0960F1C9F1FA8C0786269949 /* Sources */,
+				3C46CDC0475FECDA502FC47F79EE755D /* Frameworks */,
+				B0E591B4EB8FD918FB16A461DDCC9333 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AF65DCAE9BDF1B9CBCEE98746BE7750 /* PBXTargetDependency */,
+			);
+			name = "Pods-AipOcrSdk_Tests";
+			productName = "Pods-AipOcrSdk_Tests";
+			productReference = 35CCCAF31A39C96359F2EAED4B72D0D3 /* Pods_AipOcrSdk_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7505D124FF6569CBEAF8EA12240E2F4C /* Pods-AipOcrSdk_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA07985076070A16C8C80C3CA474B733 /* Build configuration list for PBXNativeTarget "Pods-AipOcrSdk_Example" */;
+			buildPhases = (
+				8AC058E411982C626216837F8D8AF1DA /* Sources */,
+				C35D38A236911D214FA0411F68A31090 /* Frameworks */,
+				AF533ECAD1938011FD04660BFFBF093A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E256162EBE526DE30AA6926C68F2A9F3 /* PBXTargetDependency */,
+			);
+			name = "Pods-AipOcrSdk_Example";
+			productName = "Pods-AipOcrSdk_Example";
+			productReference = 9B9B6776A8321E0B4496358CD6B82071 /* Pods_AipOcrSdk_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9371C2A44CDACF8A11EAA321104C050B /* AipOcrSdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05A9B83B839F6C8C50674C083B1EDB28 /* Build configuration list for PBXNativeTarget "AipOcrSdk" */;
+			buildPhases = (
+				6415DCA1636C5DF30DF6326AC5DE9656 /* Sources */,
+				453E8BF4B1930ACAFA58B35E02E267EF /* Frameworks */,
+				452E67A18B6B73DD091FC18796F544BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AipOcrSdk;
+			productName = AipOcrSdk;
+			productReference = 2BE35E5A7F02B34DC08A2DE693324244 /* AipOcrSdk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CF4357BA4AB98893DF36745D7E94FAA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9371C2A44CDACF8A11EAA321104C050B /* AipOcrSdk */,
+				7505D124FF6569CBEAF8EA12240E2F4C /* Pods-AipOcrSdk_Example */,
+				0C7647B4B97A779C4D482C2EED2061BB /* Pods-AipOcrSdk_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6415DCA1636C5DF30DF6326AC5DE9656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A26231ACA12AE1D83C0F5C653C8F74 /* AipBase in Sources */,
+				0E682547E87EF56838BAAB986ACCA7BC /* AipCaptureCardVC.nib in Sources */,
+				35B81E43AC7FEAE2831A39C7F95BFD13 /* AipGeneralVC.nib in Sources */,
+				D47519A75B4479C7A8AA69BD868A1B34 /* AipOcrSdk in Sources */,
+				E8B27020B6C2F2A88FECA0D6F454313F /* AipOcrSdk-dummy.m in Sources */,
+				9BED059F23DB01AA9629DEEE4A006513 /* ANZ-N0-y67-view-Tv2-ge-o8Q.nib in Sources */,
+				06A6E13B837D957EC2C6218064C2CA8A /* dengpao@2x.png in Sources */,
+				138574FF42A5109F0345E414ED6EB579 /* dengpao@3x.png in Sources */,
+				EF1D52AD9B04E19FDD86562E59D6E2D3 /* dengpao_dianjihou@2x.png in Sources */,
+				5C11C7A03A21843E79CBB923A52235FA /* dengpao_dianjihou@3x.png in Sources */,
+				46209457EF1FE03CF3A2ACE5F10E617D /* guan@2x.png in Sources */,
+				27E8380C1445B3B36E26503CC83041D4 /* guan@3x.png in Sources */,
+				727818C8604F5856B8E5E3ADC2FE221B /* guanbi@2x.png in Sources */,
+				9349736C697C30D513D76F4A96E790EC /* guanbi@3x.png in Sources */,
+				F49A11DA8ADA46AB9EDFA0E159A4E4CA /* IdcardQuality in Sources */,
+				DB18C8006C289EF887BCC065BEF245E3 /* Info.plist in Sources */,
+				DB18C8006C289EF887BCC065BEF245E3 /* Info.plist in Sources */,
+				DB18C8006C289EF887BCC065BEF245E3 /* Info.plist in Sources */,
+				DB18C8006C289EF887BCC065BEF245E3 /* Info.plist in Sources */,
+				139E4FA0FB7AC4CE9CA0B10F695F5F9E /* integrity_model_secret.bin in Sources */,
+				69AB27977A043210C98E0F565B229CD1 /* module.modulemap in Sources */,
+				69AB27977A043210C98E0F565B229CD1 /* module.modulemap in Sources */,
+				69AB27977A043210C98E0F565B229CD1 /* module.modulemap in Sources */,
+				0DA27236BC8CD7545CE7EC64B1ECBDAA /* Page 1@2x.png in Sources */,
+				C10A6DEC7DD64699F5B376B83BB6DA9E /* Page 1@3x.png in Sources */,
+				AD22550E07A199F2E2DFCF47889FDA6E /* paizhaoanniu@2x.png in Sources */,
+				45EAFAE18BE216A733C5C16047887778 /* paizhaoanniu@3x.png in Sources */,
+				C4F38C98B034635C0C1B8C2EFA35CE4A /* paizhaoanniu_dianjihou@2x.png in Sources */,
+				B7E97C4B7A2113C1B5CA7BAACD47DDCD /* paizhaoanniu_dianjihou@3x.png in Sources */,
+				C4DA659ED95F12B0C2AA0D99CAA0D963 /* quality_model_secret.bin in Sources */,
+				629B02F881D0B36E531DCC8CA366593A /* queding@2x.png in Sources */,
+				F1712928DF6520A09B2B74BF2410E983 /* queding@3x.png in Sources */,
+				51DC399A486C5EABC16B4899CDD434B2 /* qVB-bS-VcD-view-pEK-B6-uAC.nib in Sources */,
+				B90304E774D8F1D558E9D7E0B0B5A27D /* tuku@2x.png in Sources */,
+				1DBD001655A1F89D9958ADDAA21C3066 /* tuku@3x.png in Sources */,
+				3A9A0F57EED95F98722878FA18423ADE /* xuanzhuan@2x.png in Sources */,
+				2D544AEDA978CA5A93F9AC6B90A2831F /* xuanzhuan@3x.png in Sources */,
+				BE56B790E06097F65714E3DF5CD3F888 /* xuxian@2x.png in Sources */,
+				81C55227F80A5262CE16ED83F68E9414 /* xuxian@3x.png in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AC058E411982C626216837F8D8AF1DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A2698E6628058C65A51C88017F4C51 /* Pods-AipOcrSdk_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB9851D0960F1C9F1FA8C0786269949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8FC4AFC7A0FAB75D5F12C3138E7FBE /* Pods-AipOcrSdk_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AF65DCAE9BDF1B9CBCEE98746BE7750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AipOcrSdk_Example";
+			target = 7505D124FF6569CBEAF8EA12240E2F4C /* Pods-AipOcrSdk_Example */;
+			targetProxy = 66BC1F5D47D9C5433C7E573C3306DFCF /* PBXContainerItemProxy */;
+		};
+		E256162EBE526DE30AA6926C68F2A9F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AipOcrSdk;
+			target = 9371C2A44CDACF8A11EAA321104C050B /* AipOcrSdk */;
+			targetProxy = A86E1CE35911513A8900061AF9E364EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2197D7513FC71E4034F2BAEF9A1C85C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC778252F509A7FFC65FD7F668F157B4 /* Pods-AipOcrSdk_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AipOcrSdk_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AipOcrSdk_Example/Pods-AipOcrSdk_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E75E5D27B2D64B9ED1F027D6674224F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CC70EDF76D7DDC114B6495E0BCC2222 /* Pods-AipOcrSdk_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AipOcrSdk_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AipOcrSdk_Tests/Pods-AipOcrSdk_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4FA55A8013CE002BEC3185C4E51F5438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D75168917B8997451F60C4AC036ACAD0 /* AipOcrSdk.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AipOcrSdk/AipOcrSdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AipOcrSdk/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AipOcrSdk/AipOcrSdk.modulemap";
+				PRODUCT_MODULE_NAME = AipOcrSdk;
+				PRODUCT_NAME = AipOcrSdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A0AD3E86BD1256AADD9FD8BF1423F829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59C6E36744869872C023F40CFACC2264 /* Pods-AipOcrSdk_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AipOcrSdk_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AipOcrSdk_Example/Pods-AipOcrSdk_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A4EE81985D6D1ED7B9E405DE0209E125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D75168917B8997451F60C4AC036ACAD0 /* AipOcrSdk.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AipOcrSdk/AipOcrSdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AipOcrSdk/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AipOcrSdk/AipOcrSdk.modulemap";
+				PRODUCT_MODULE_NAME = AipOcrSdk;
+				PRODUCT_NAME = AipOcrSdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DE5E9ECAAE10A4BBABF67C03CDE1DFD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1A0E1D0DEDD80A87C64DD9746F01B48 /* Pods-AipOcrSdk_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AipOcrSdk_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AipOcrSdk_Tests/Pods-AipOcrSdk_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05A9B83B839F6C8C50674C083B1EDB28 /* Build configuration list for PBXNativeTarget "AipOcrSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA55A8013CE002BEC3185C4E51F5438 /* Debug */,
+				A4EE81985D6D1ED7B9E405DE0209E125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A846943C6C3E4ABB2093C2EE00B6189D /* Build configuration list for PBXNativeTarget "Pods-AipOcrSdk_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5E9ECAAE10A4BBABF67C03CDE1DFD0 /* Debug */,
+				2E75E5D27B2D64B9ED1F027D6674224F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA07985076070A16C8C80C3CA474B733 /* Build configuration list for PBXNativeTarget "Pods-AipOcrSdk_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0AD3E86BD1256AADD9FD8BF1423F829 /* Debug */,
+				2197D7513FC71E4034F2BAEF9A1C85C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

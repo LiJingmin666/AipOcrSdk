@@ -1,0 +1,22 @@
+{
+  "name": "AipOcrSdk",
+  "version": "0.1.0",
+  "summary": "A short description of AipOcrSdk.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kinarobi/AipOcrSdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kinarobi": "kinarobin@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/kinarobi/AipOcrSdk.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AipOcrSdk/Classes/**/*"
+}

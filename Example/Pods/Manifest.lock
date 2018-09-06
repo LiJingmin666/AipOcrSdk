@@ -1,0 +1,16 @@
+PODS:
+  - AipOcrSdk (0.1.0)
+
+DEPENDENCIES:
+  - AipOcrSdk (from `../`)
+
+EXTERNAL SOURCES:
+  AipOcrSdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AipOcrSdk: 8e2f24ec649ae6a09004e0850ccd16ccc8e8a358
+
+PODFILE CHECKSUM: 5b9e1e99500f7e995ae52c3dfa7f9379bf23250d
+
+COCOAPODS: 1.5.3
