@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/kinarob/AipOcrSdk'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kinarobi' => 'kinarobin@outlook.com' }
-  s.source           = { :git => 'https://github.com/kinarob/AipOcrSdk.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:kinarob/AipOcrSdk.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
