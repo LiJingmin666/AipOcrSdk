@@ -22,7 +22,7 @@ pod 'AipOcrSdk'
 
 ## Author
 
-kinarobi, kinarobin@outlook.com
+kinarobin, kinarobin@outlook.com
 
 ## License
 
